@@ -5,6 +5,9 @@ class MyButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container(
+      decoration: BoxDecoration(color: Color.fromARGB(212, 135, 81, 77)),
+      child: Text(text),
+    );
   }
 }
