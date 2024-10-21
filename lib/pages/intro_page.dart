@@ -40,9 +40,17 @@ class IntroPage extends StatelessWidget {
             Text(
               "THE TASTE OF JAPANESE FOOD",
               style: GoogleFonts.dmSerifDisplay(fontSize: 44, color: Colors.white),
-            )
+            ),
+
+            const SizedBox(
+              height: 10,
+            ),
 
             // subtitle
+            Text(
+              "Feel the taste of the most popular Japanese food fromm anywhere and anytime",
+              style: TextStyle(color: Colors.grey[300], height: 2),
+            )
 
             // get started button
           ],
