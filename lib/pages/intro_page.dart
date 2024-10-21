@@ -5,6 +5,21 @@ class IntroPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Color.fromARGB(225, 138, 60, 55),
+      body: Column(
+        children: [
+          // shop name
+
+          // icon
+
+          // title
+
+          // subtitle
+
+          // get started button
+        ],
+      ),
+    );
   }
 }
