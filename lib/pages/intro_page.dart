@@ -11,6 +11,7 @@ class IntroPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(
               height: 25,
@@ -26,9 +27,20 @@ class IntroPage extends StatelessWidget {
             ),
 
             // icon
-            Image.asset("lib/images/salmon_egges.png"),
+            Padding(
+              padding: const EdgeInsets.all(50.0),
+              child: Image.asset("lib/images/salmon_egges.png"),
+            ),
+
+            const SizedBox(
+              height: 25,
+            ),
 
             // title
+            Text(
+              "THE TASTE OF JAPANESE FOOD",
+              style: GoogleFonts.dmSerifDisplay(fontSize: 44, color: Colors.white),
+            )
 
             // subtitle
 
