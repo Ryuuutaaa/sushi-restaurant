@@ -18,10 +18,15 @@ class IntroPage extends StatelessWidget {
             // shop name
             Text(
               "SUSHI MAN",
-              style: GoogleFonts.dmSerifDisplay(),
-            )
+              style: GoogleFonts.dmSerifDisplay(fontSize: 28, color: Colors.white),
+            ),
+
+            const SizedBox(
+              height: 35,
+            ),
 
             // icon
+            Image.asset("lib/images/salmon_egges.png"),
 
             // title
 
