@@ -50,6 +50,10 @@ class IntroPage extends StatelessWidget {
             Text(
               "Feel the taste of the most popular Japanese food fromm anywhere and anytime",
               style: TextStyle(color: Colors.grey[300], height: 2),
+            ),
+
+            const SizedBox(
+              height: 25,
             )
 
             // get started button
