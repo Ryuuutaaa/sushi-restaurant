@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sushi/pages/intro_page.dart';
 
+import 'pages/menu_page.dart';
+
 void main() {
   runApp(const MyApp());
 }

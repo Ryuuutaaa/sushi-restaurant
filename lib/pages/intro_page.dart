@@ -59,7 +59,10 @@ class IntroPage extends StatelessWidget {
             ),
 
             // get started button
-            MyButton(text: "Get Started", onTap: ,)
+            MyButton(text: "Get Started", onTap: () {
+              // go to menu navigation
+              Navigator.pushNamed(context, routeName)
+            },)
           ],
         ),
       ),
