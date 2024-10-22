@@ -29,6 +29,7 @@ class _MenuPageState extends State<MenuPage> {
         children: [
           // promo banner
           Container(
+          decoration: BoxDecoration(color: Colors.),
             child: Row(
               children: [
                 Column(
