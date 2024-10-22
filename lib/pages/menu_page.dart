@@ -94,9 +94,10 @@ class _MenuPageState extends State<MenuPage> {
 
           const SizedBox(
             height: 25,
-          )
+          ),
 
           // menu list
+          Text("Food Menu")
 
           // popular food
         ],
