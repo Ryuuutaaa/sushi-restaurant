@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sushi/components/button.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});
@@ -33,9 +34,13 @@ class _MenuPageState extends State<MenuPage> {
                 Column(
                   children: [
                     // promo message
-                    Text('Get 32% Promo')
+                    Text('Get 32% Promo'),
 
                     // redem button
+                    MyButton(
+                      text: "Redeem",
+                      onTap: () {},
+                    ),
                   ],
                 )
 
