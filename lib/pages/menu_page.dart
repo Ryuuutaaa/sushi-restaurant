@@ -30,8 +30,16 @@ class _MenuPageState extends State<MenuPage> {
           Container(
             child: Row(
               children: [
-                // promo message
-                Text('Get 32% Promo')
+                Column(
+                  children: [
+                    // promo message
+                    Text('Get 32% Promo')
+
+                    // redem button
+                  ],
+                )
+
+                // image
               ],
             ),
           )
