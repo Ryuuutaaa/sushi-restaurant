@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi/components/button.dart';
 import 'package:sushi/theme/colors.dart';
 
@@ -38,7 +39,14 @@ class _MenuPageState extends State<MenuPage> {
                 Column(
                   children: [
                     // promo message
-                    Text('Get 32% Promo'),
+                    Text(
+                      'Get 32% Promo',
+                      style: GoogleFonts.dmSerifDisplay(fontSize: 20, color: Colors.white),
+                    ),
+
+                    const SizedBox(
+                      height: 20,
+                    ),
 
                     // redem button
                     MyButton(
