@@ -24,6 +24,17 @@ class _MenuPageState extends State<MenuPage> {
           style: TextStyle(color: Colors.grey[900]),
         ),
       ),
+      body: Column(
+        children: [
+          // promo banner
+
+          // search bar
+
+          // menu list
+
+          // popular food
+        ],
+      ),
     );
   }
 }
