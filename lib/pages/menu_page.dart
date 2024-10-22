@@ -54,9 +54,13 @@ class _MenuPageState extends State<MenuPage> {
                       onTap: () {},
                     ),
                   ],
-                )
+                ),
 
                 // image
+                Image.asset(
+                  'lib/images/many_sushi.png',
+                  height: 100,
+                )
               ],
             ),
           )
