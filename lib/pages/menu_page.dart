@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sushi/components/button.dart';
+import 'package:sushi/theme/colors.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({super.key});
@@ -29,7 +30,7 @@ class _MenuPageState extends State<MenuPage> {
         children: [
           // promo banner
           Container(
-          decoration: BoxDecoration(color: Colors.),
+            decoration: BoxDecoration(color: primaryColor),
             child: Row(
               children: [
                 Column(
