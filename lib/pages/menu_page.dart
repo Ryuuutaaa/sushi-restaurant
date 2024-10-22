@@ -30,7 +30,8 @@ class _MenuPageState extends State<MenuPage> {
         children: [
           // promo banner
           Container(
-            decoration: BoxDecoration(color: primaryColor),
+            decoration: BoxDecoration(color: primaryColor, borderRadius: BorderRadius.circular(20)),
+            margin: const EdgeInsets.symmetric(horizontal: 25),
             child: Row(
               children: [
                 Column(
