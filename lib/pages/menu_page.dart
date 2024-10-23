@@ -148,6 +148,10 @@ class _MenuPageState extends State<MenuPage> {
                   height: 60,
                 ),
 
+                const SizedBox(
+                  height: 20,
+                ),
+
                 // name and price
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -168,9 +172,14 @@ class _MenuPageState extends State<MenuPage> {
                       style: TextStyle(color: Colors.grey[700]),
                     )
                   ],
-                )
+                ),
 
                 // heart
+                Icon(
+                  Icons.favorite_outline,
+                  color: Colors.grey,
+                  size: 28,
+                )
               ],
             ),
           )
