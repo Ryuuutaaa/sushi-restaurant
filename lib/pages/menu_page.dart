@@ -139,6 +139,7 @@ class _MenuPageState extends State<MenuPage> {
           Container(
             decoration: BoxDecoration(color: Colors.grey[100], borderRadius: BorderRadius.circular(20)),
             margin: const EdgeInsets.only(left: 25, right: 25, bottom: 25),
+            padding: const EdgeInsets.all(20),
             child: Row(
               children: [
                 // image
