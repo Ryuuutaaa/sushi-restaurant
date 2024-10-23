@@ -140,6 +140,12 @@ class _MenuPageState extends State<MenuPage> {
             child: Row(
               children: [
                 // image
+                Image.asset(
+                  'lib/images/salmon_egges.png',
+                  height: 60,
+                )
+
+                // name and price
 
                 // heart
               ],
