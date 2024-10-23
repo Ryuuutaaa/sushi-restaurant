@@ -112,7 +112,7 @@ class _MenuPageState extends State<MenuPage> {
 
           Expanded(
             child: ListView.builder(
-              itemBuilder: (context, index) => FoodTitle(),
+              itemBuilder: (context, index) => FoodTile(),
             ),
           )
 
