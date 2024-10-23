@@ -152,6 +152,10 @@ class _MenuPageState extends State<MenuPage> {
                     Text(
                       "Salmon eggs",
                       style: GoogleFonts.dmSerifDisplay(fontSize: 18),
+                    ),
+
+                    const SizedBox(
+                      height: 10,
                     )
                   ],
                 )
