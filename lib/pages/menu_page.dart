@@ -28,6 +28,7 @@ class _MenuPageState extends State<MenuPage> {
         ),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // promo banner
           Container(
@@ -97,7 +98,13 @@ class _MenuPageState extends State<MenuPage> {
           ),
 
           // menu list
-          Text("Food Menu")
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 25.0),
+            child: Text(
+              "Food Menu",
+              style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey[800], fontSize: 18),
+            ),
+          )
 
           // popular food
         ],
