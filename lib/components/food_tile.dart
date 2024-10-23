@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../models/food.dart';
 
 class FoodTile extends StatelessWidget {
@@ -19,6 +20,10 @@ class FoodTile extends StatelessWidget {
           Image.asset(food.imagePath),
 
           // text
+          Text(
+            food.name,
+            style: GoogleFonts.dmSerifDisplay(fontSize: 20),
+          )
 
           // price + rating
         ],
