@@ -23,9 +23,19 @@ class FoodTile extends StatelessWidget {
           Text(
             food.name,
             style: GoogleFonts.dmSerifDisplay(fontSize: 20),
-          )
+          ),
 
           // price + rating
+          SizedBox(
+            width: 160,
+            child: Row(
+              children: [
+                // price
+
+                //  rating
+              ],
+            ),
+          ),
         ],
       ),
     );
