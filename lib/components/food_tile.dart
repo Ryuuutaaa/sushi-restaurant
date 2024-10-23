@@ -40,6 +40,10 @@ class FoodTile extends StatelessWidget {
                 // price
                 Text(
                   "\$" + food.price,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey[700],
+                  ),
                 ),
 
                 //  rating
