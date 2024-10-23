@@ -104,6 +104,10 @@ class _MenuPageState extends State<MenuPage> {
               "Food Menu",
               style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey[800], fontSize: 18),
             ),
+          ),
+
+          const SizedBox(
+            height: 10,
           )
 
           // popular food
