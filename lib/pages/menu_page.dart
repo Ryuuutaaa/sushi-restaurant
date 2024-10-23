@@ -138,6 +138,7 @@ class _MenuPageState extends State<MenuPage> {
           // popular food
           Container(
             decoration: BoxDecoration(color: Colors.grey[100], borderRadius: BorderRadius.circular(20)),
+            margin: const EdgeInsets.only(left: 25, right: 25, bottom: 25),
             child: Row(
               children: [
                 // image
