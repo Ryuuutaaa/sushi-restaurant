@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi/components/button.dart';
+import 'package:sushi/models/food.dart';
 import 'package:sushi/theme/colors.dart';
 
 class MenuPage extends StatefulWidget {
@@ -13,6 +14,10 @@ class MenuPage extends StatefulWidget {
 class _MenuPageState extends State<MenuPage> {
 // list food
 
+  List foodMenu = [
+    // salmon suhsi
+    Food(name: "Salmon Sushi", price: "21.00", imagePath: "lib/images/salmon_sushi.png", rating: "4.9"),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
