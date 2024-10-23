@@ -156,6 +156,12 @@ class _MenuPageState extends State<MenuPage> {
 
                     const SizedBox(
                       height: 10,
+                    ),
+
+                    // price
+                    Text(
+                      "\$21.00",
+                      style: TextStyle(color: Colors.grey[700]),
                     )
                   ],
                 )
