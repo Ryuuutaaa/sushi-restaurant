@@ -123,7 +123,10 @@ class _MenuPageState extends State<MenuPage> {
 
           Expanded(
             child: ListView.builder(
-              itemBuilder: (context, index) => FoodTile(),
+              itemCount: foodMenu.length,
+              itemBuilder: (context, index) => FoodTile(
+                food: foodMenu[index],
+              ),
             ),
           )
 
