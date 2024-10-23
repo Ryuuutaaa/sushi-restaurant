@@ -129,9 +129,22 @@ class _MenuPageState extends State<MenuPage> {
                 food: foodMenu[index],
               ),
             ),
-          )
+          ),
+
+          const SizedBox(
+            height: 25,
+          ),
 
           // popular food
+          Container(
+            child: Row(
+              children: [
+                // image
+
+                // heart
+              ],
+            ),
+          )
         ],
       ),
     );
