@@ -31,6 +31,7 @@ class FoodTile extends StatelessWidget {
             child: Row(
               children: [
                 // price
+                Text("\$" + food.price),
 
                 //  rating
               ],
