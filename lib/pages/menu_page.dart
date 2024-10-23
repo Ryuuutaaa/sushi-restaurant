@@ -147,6 +147,7 @@ class _MenuPageState extends State<MenuPage> {
 
                 // name and price
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     // name
                     Text(
