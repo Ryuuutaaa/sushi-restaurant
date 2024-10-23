@@ -108,6 +108,12 @@ class _MenuPageState extends State<MenuPage> {
 
           const SizedBox(
             height: 10,
+          ),
+
+          Expanded(
+            child: ListView.builder(
+              itemBuilder: (context, index) => FoodTitle(),
+            ),
           )
 
           // popular food
