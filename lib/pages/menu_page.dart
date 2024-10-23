@@ -143,9 +143,18 @@ class _MenuPageState extends State<MenuPage> {
                 Image.asset(
                   'lib/images/salmon_egges.png',
                   height: 60,
-                )
+                ),
 
                 // name and price
+                Column(
+                  children: [
+                    // name
+                    Text(
+                      "Salmon eggs",
+                      style: GoogleFonts.dmSerifDisplay(fontSize: 18),
+                    )
+                  ],
+                )
 
                 // heart
               ],
