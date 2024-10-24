@@ -141,6 +141,7 @@ class _MenuPageState extends State<MenuPage> {
             margin: const EdgeInsets.only(left: 25, right: 25, bottom: 25),
             padding: const EdgeInsets.all(20),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Row(
                   children: [
@@ -179,7 +180,7 @@ class _MenuPageState extends State<MenuPage> {
                 ),
 
                 // heart
-                Icon(
+                const Icon(
                   Icons.favorite_outline,
                   color: Colors.grey,
                   size: 28,
