@@ -22,6 +22,16 @@ class _MenuPageState extends State<MenuPage> {
     // tuna sushi
     Food(name: "Tuna Sushi", price: "23.00", imagePath: "lib/images/tuna.png", rating: "4.3"),
   ];
+
+  // naviagte to food item detail
+  void navigateToFoodDetails(int index) {
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => FoodDetailsPage(),
+        ));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -128,6 +138,7 @@ class _MenuPageState extends State<MenuPage> {
               itemCount: foodMenu.length,
               itemBuilder: (context, index) => FoodTile(
                 food: foodMenu[index],
+                onTap: ,
               ),
             ),
           ),
