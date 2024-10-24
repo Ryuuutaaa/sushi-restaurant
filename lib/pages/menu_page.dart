@@ -153,7 +153,7 @@ class _MenuPageState extends State<MenuPage> {
                     ),
 
                     const SizedBox(
-                      height: 20,
+                      width: 20,
                     ),
 
                     // name and price
