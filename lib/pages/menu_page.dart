@@ -142,35 +142,39 @@ class _MenuPageState extends State<MenuPage> {
             padding: const EdgeInsets.all(20),
             child: Row(
               children: [
-                // image
-                Image.asset(
-                  'lib/images/salmon_egges.png',
-                  height: 60,
-                ),
-
-                const SizedBox(
-                  height: 20,
-                ),
-
-                // name and price
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                Row(
                   children: [
-                    // name
-                    Text(
-                      "Salmon eggs",
-                      style: GoogleFonts.dmSerifDisplay(fontSize: 18),
+                    // image
+                    Image.asset(
+                      'lib/images/salmon_egges.png',
+                      height: 60,
                     ),
 
                     const SizedBox(
-                      height: 10,
+                      height: 20,
                     ),
 
-                    // price
-                    Text(
-                      "\$21.00",
-                      style: TextStyle(color: Colors.grey[700]),
-                    )
+                    // name and price
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        // name
+                        Text(
+                          "Salmon eggs",
+                          style: GoogleFonts.dmSerifDisplay(fontSize: 18),
+                        ),
+
+                        const SizedBox(
+                          height: 10,
+                        ),
+
+                        // price
+                        Text(
+                          "\$21.00",
+                          style: TextStyle(color: Colors.grey[700]),
+                        )
+                      ],
+                    ),
                   ],
                 ),
 
@@ -179,7 +183,7 @@ class _MenuPageState extends State<MenuPage> {
                   Icons.favorite_outline,
                   color: Colors.grey,
                   size: 28,
-                )
+                ),
               ],
             ),
           )
