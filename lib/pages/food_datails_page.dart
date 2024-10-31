@@ -50,7 +50,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                     ),
 
                     const SizedBox(
-                      height: 10,
+                      width: 5,
                     ),
 
                     // reting number
@@ -59,6 +59,10 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                       style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold),
                     )
                   ],
+                ),
+
+                SizedBox(
+                  height: 10,
                 ),
 
                 // food name
