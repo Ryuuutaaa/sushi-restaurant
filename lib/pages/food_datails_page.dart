@@ -45,9 +45,14 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                   Icon(
                     Icons.star,
                     color: Colors.yellow[800],
-                  )
+                  ),
+
+                  const SizedBox(
+                    height: 10,
+                  ),
 
                   // reting number
+                  Text(widget.food.rating)
                 ],
               ),
 
