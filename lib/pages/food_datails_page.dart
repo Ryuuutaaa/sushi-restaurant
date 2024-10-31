@@ -52,7 +52,10 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                   ),
 
                   // reting number
-                  Text(widget.food.rating)
+                  Text(
+                    widget.food.rating,
+                    style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold),
+                  )
                 ],
               ),
 
