@@ -22,6 +22,13 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
         elevation: 0,
         foregroundColor: Colors.grey[900],
       ),
+      body: Column(
+        children: [
+          // listview of food details
+
+          // price + quantity + add to cart button
+        ],
+      ),
     );
   }
 }
