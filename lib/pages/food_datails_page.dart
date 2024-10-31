@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:sushi/models/food.dart';
 
 class FoodDatailsPage extends StatefulWidget {
-  final food;
-  const FoodDatailsPage({super.key, this.food});
+  final Food food;
+
+  const FoodDatailsPage({
+    super.key,
+    required this.food,
+  });
 
   @override
   State<FoodDatailsPage> createState() => _FoodDatailsPageState();
