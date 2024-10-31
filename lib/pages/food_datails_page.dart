@@ -26,43 +26,46 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
         children: [
           // listview of food details
           Expanded(
-              child: ListView(
-            children: [
-              // image
-              Image.asset(
-                widget.food.imagePath,
-                height: 200,
-              ),
+              child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 25.0),
+            child: ListView(
+              children: [
+                // image
+                Image.asset(
+                  widget.food.imagePath,
+                  height: 200,
+                ),
 
-              const SizedBox(
-                height: 25,
-              ),
+                const SizedBox(
+                  height: 25,
+                ),
 
-              // rating
-              Row(
-                children: [
-                  // start icon
-                  Icon(
-                    Icons.star,
-                    color: Colors.yellow[800],
-                  ),
+                // rating
+                Row(
+                  children: [
+                    // start icon
+                    Icon(
+                      Icons.star,
+                      color: Colors.yellow[800],
+                    ),
 
-                  const SizedBox(
-                    height: 10,
-                  ),
+                    const SizedBox(
+                      height: 10,
+                    ),
 
-                  // reting number
-                  Text(
-                    widget.food.rating,
-                    style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold),
-                  )
-                ],
-              ),
+                    // reting number
+                    Text(
+                      widget.food.rating,
+                      style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold),
+                    )
+                  ],
+                ),
 
-              // food name
+                // food name
 
-              // description
-            ],
+                // description
+              ],
+            ),
           ))
 
           // price + quantity + add to cart button
