@@ -96,9 +96,21 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
           // price + quantity + add to cart button
           Container(
             color: primaryColor,
+            padding: const EdgeInsets.all(25),
             child: Column(
               children: [
                 // price + quantity
+                Row(
+                  children: [
+                    // price
+                    Text(
+                      "\$" + widget.food.price,
+                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                    )
+
+                    // quantity
+                  ],
+                )
 
                 // add to cart
               ],
