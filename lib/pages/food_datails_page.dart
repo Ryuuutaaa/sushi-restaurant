@@ -25,6 +25,18 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
       body: Column(
         children: [
           // listview of food details
+          Expanded(
+              child: ListView(
+            children: [
+              // image
+
+              // rating
+
+              // food name
+
+              // description
+            ],
+          ))
 
           // price + quantity + add to cart button
         ],
