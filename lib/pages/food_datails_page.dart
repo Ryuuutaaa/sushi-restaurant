@@ -36,9 +36,20 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
 
               const SizedBox(
                 height: 25,
-              )
+              ),
 
               // rating
+              Row(
+                children: [
+                  // start icon
+                  Icon(
+                    Icons.star,
+                    color: Colors.yellow[800],
+                  )
+
+                  // reting number
+                ],
+              ),
 
               // food name
 
