@@ -74,9 +74,13 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
 
                 const SizedBox(
                   height: 25,
-                )
+                ),
 
                 // description
+                Text(
+                  "Description",
+                  style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold, fontSize: 18),
+                )
               ],
             ),
           ))
