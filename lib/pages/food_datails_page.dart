@@ -17,7 +17,11 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        foregroundColor: Colors.grey[900],
+      ),
     );
   }
 }
