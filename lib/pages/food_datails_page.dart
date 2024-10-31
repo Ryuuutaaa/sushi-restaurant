@@ -80,6 +80,13 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                 Text(
                   "Description",
                   style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold, fontSize: 18),
+                ),
+
+                const SizedBox(height: 10),
+
+                Text(
+                  "Delicately slicced, fresh atlantic salmon drapes elegantly over a pillow of perfactly seasoned sushi rice.",
+                  style: TextStyle(color: Colors.grey[600], fontSize: 14, height: 2),
                 )
               ],
             ),
