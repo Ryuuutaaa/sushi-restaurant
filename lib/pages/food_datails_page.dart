@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
 
-class FoodDetailsPage extends StatelessWidget {
-  const FoodDetailsPage({super.key});
+class FoodDatailsPage extends StatefulWidget {
+  final food;
+  const FoodDatailsPage({super.key, this.food});
 
   @override
+  State<FoodDatailsPage> createState() => _FoodDatailsPageState();
+}
+
+class _FoodDatailsPageState extends State<FoodDatailsPage> {
+  @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
