@@ -63,7 +63,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                   ],
                 ),
 
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
 
