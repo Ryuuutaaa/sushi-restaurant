@@ -137,9 +137,11 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                         ),
 
                         // quantity count
-                        Text(
-                          quantityCount.toString(),
-                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                        SizedBox(
+                          child: Text(
+                            quantityCount.toString(),
+                            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                          ),
                         ),
 
                         // plus buttob
