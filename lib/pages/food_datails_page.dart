@@ -132,7 +132,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                       children: [
                         // minus
                         Container(
-                          decoration: BoxDecoration(color: second),
+                          decoration: BoxDecoration(color: secondaryColor),
                           child: IconButton(onPressed: decrementQuantity, icon: Icon(Icons.remove, color: Colors.white)),
                         )
 
