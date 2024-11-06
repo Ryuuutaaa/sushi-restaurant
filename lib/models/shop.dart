@@ -23,4 +23,9 @@ class Shop {
       _cart.add(foodItem);
     }
   }
+
+  // remove from cart
+  void removeFromCart(Food food) {
+    _cart.remove(food);
+  }
 }
