@@ -111,7 +111,10 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                     // quantity
                     Row(
                       children: [
-                        // minus button
+                        // minus
+                        Container(
+                          child: IconButton(onPressed: decrementQuantity, icon: icon(Icons.remove)),
+                        )
 
                         // quantity count
 
