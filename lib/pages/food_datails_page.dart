@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sushi/components/button.dart';
 import 'package:sushi/models/food.dart';
 import 'package:sushi/theme/colors.dart';
 
@@ -156,9 +157,10 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                       ],
                     )
                   ],
-                )
+                ),
 
                 // add to cart
+                MyButton(text: "Add to chart", onTap: addToChart),
               ],
             ),
           )
