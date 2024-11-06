@@ -17,8 +17,14 @@ class FoodDatailsPage extends StatefulWidget {
 
 class _FoodDatailsPageState extends State<FoodDatailsPage> {
   // quantity
+  int quantityCount = 0;
 
   // decrement quantity
+  void decrementQuantity() {
+    setState(() {
+      quantityCount--;
+    });
+  }
 
   // increment quantity
 
