@@ -36,6 +36,9 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
     });
   }
 
+  // add to cart
+  void addToChart() {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -157,6 +160,10 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                       ],
                     )
                   ],
+                ),
+
+                const SizedBox(
+                  height: 35,
                 ),
 
                 // add to cart
