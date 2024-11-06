@@ -106,9 +106,18 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                     Text(
                       "\$" + widget.food.price,
                       style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
-                    )
+                    ),
 
                     // quantity
+                    Row(
+                      children: [
+                        // minus button
+
+                        // quantity count
+
+                        // plus buttob
+                      ],
+                    )
                   ],
                 )
 
