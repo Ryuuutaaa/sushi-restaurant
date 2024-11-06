@@ -27,6 +27,13 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
   }
 
   // increment quantity
+  void incrementQuantity() {
+    setState(() {
+      setState(() {
+        quantityCount--;
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
