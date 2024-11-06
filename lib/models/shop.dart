@@ -9,4 +9,7 @@ class Shop {
     // tuna sushi
     Food(name: "Tuna Sushi", price: "23.00", imagePath: "lib/images/tuna.png", rating: "4.3"),
   ];
+
+  // customer card
+  List<Food> _cart = [];
 }
