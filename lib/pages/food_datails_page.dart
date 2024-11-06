@@ -16,6 +16,12 @@ class FoodDatailsPage extends StatefulWidget {
 }
 
 class _FoodDatailsPageState extends State<FoodDatailsPage> {
+  // quantity
+
+  // decrement quantity
+
+  // increment quantity
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
