@@ -125,7 +125,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                     // price
                     Text(
                       "\$" + widget.food.price,
-                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
                     ),
 
                     // quantity
@@ -143,7 +143,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                           child: Center(
                             child: Text(
                               quantityCount.toString(),
-                              style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
                             ),
                           ),
                         ),
