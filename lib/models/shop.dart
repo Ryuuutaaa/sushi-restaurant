@@ -16,4 +16,11 @@ class Shop {
   // getter  methods
   List<Food> get foodMenu => _foodMenu;
   List<Food> get cart => _cart;
+
+  // add to cart
+  void addToCart(Food foodItem, int quantity) {
+    for (int i = 0; i < quantity; i++) {
+      _cart.add(foodItem);
+    }
+  }
 }
