@@ -141,7 +141,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                         // plus buttob
                         Container(
                           decoration: BoxDecoration(color: secondaryColor, shape: BoxShape.circle),
-                          child: IconButton(onPressed: decrementQuantity, icon: const Icon(Icons.remove, color: Colors.white)),
+                          child: IconButton(onPressed: incrementQuantity, icon: const Icon(Icons.add, color: Colors.white)),
                         )
                       ],
                     )
