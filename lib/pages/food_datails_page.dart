@@ -120,6 +120,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
               children: [
                 // price + quantity
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     // price
                     Text(
