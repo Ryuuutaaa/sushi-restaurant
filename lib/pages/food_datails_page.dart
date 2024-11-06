@@ -30,7 +30,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
   void incrementQuantity() {
     setState(() {
       setState(() {
-        quantityCount--;
+        quantityCount++;
       });
     });
   }
