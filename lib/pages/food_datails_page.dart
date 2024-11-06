@@ -138,9 +138,12 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
 
                         // quantity count
                         SizedBox(
-                          child: Text(
-                            quantityCount.toString(),
-                            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                          width: 40,
+                          child: Center(
+                            child: Text(
+                              quantityCount.toString(),
+                              style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+                            ),
                           ),
                         ),
 
