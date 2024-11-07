@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'package:sushi/components/button.dart';
 import 'package:sushi/models/food.dart';
+import 'package:sushi/models/shop.dart';
 import 'package:sushi/theme/colors.dart';
 
 class FoodDatailsPage extends StatefulWidget {
@@ -43,7 +45,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
     // only add to ccart if there is something in the cart
     if (quantityCount > 0) {
       // get access to shop
-
+      final shop = Provider.of<Shop>(context, listen: false);
       // add to cart
 
       // left user know it was successfull
