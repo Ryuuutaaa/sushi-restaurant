@@ -46,7 +46,9 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
     if (quantityCount > 0) {
       // get access to shop
       final shop = Provider.of<Shop>(context, listen: false);
+
       // add to cart
+      shop.addToCart(widget.food, quantityCount);
 
       // left user know it was successfull
     }
