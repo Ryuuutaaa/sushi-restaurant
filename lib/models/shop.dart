@@ -1,6 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:sushi/models/food.dart';
 
-class Shop {
+class Shop extends ChangeNotifier {
   // food  menu
   final List<Food> _foodMenu = [
     // salmon suhsi
@@ -22,10 +23,12 @@ class Shop {
     for (int i = 0; i < quantity; i++) {
       _cart.add(foodItem);
     }
+    notifyListeners();
   }
 
   // remove from cart
   void removeFromCart(Food food) {
     _cart.remove(food);
+    notifyListeners();
   }
 }
