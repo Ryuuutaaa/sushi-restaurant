@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'package:sushi/components/button.dart';
 import 'package:sushi/components/food_tile.dart';
+import 'package:sushi/main.dart';
 import 'package:sushi/models/food.dart';
+import 'package:sushi/models/shop.dart';
 import 'package:sushi/pages/food_datails_page.dart';
 import 'package:sushi/theme/colors.dart';
 
@@ -14,10 +17,10 @@ class MenuPage extends StatefulWidget {
 }
 
 class _MenuPageState extends State<MenuPage> {
-  // navigate to food item details page
+  // naviagte to food item detail
   void navigateToFoodDetails(int index) {
-    // get the shop and its menu
-
+    final shop = Provider.of<Shop>(context, listen: false);
+    final foodMenu = shop.foodMenu;
     Navigator.push(
         context,
         MaterialPageRoute(
@@ -27,6 +30,8 @@ class _MenuPageState extends State<MenuPage> {
 
   @override
   Widget build(BuildContext context) {
+    final shop = Provider.of<Shop>(context, listen: false);
+    final foodMenu = shop.foodMenu;
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sushi/models/food.dart';
+
+import 'food.dart';
 
 class Shop extends ChangeNotifier {
   // food  menu

@@ -6,10 +6,12 @@ import 'package:sushi/pages/intro_page.dart';
 import 'pages/menu_page.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider(
-    create: (contex) => Shop(),
-    child: const MyApp(),
-  ));
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => Shop(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntroPage(),
+      home: const IntroPage(),
       routes: {
         '/intropage': (context) => const IntroPage(),
         '/menupage': (context) => const MenuPage(),
