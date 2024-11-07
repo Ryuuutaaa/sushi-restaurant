@@ -25,6 +25,7 @@ class CartPage extends StatelessWidget {
             final Food food = value.cart[index];
 
             // get food name
+            final String foodName = food.name;
 
             // get food price
 
