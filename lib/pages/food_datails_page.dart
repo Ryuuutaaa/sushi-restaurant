@@ -39,7 +39,16 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
   }
 
   // add to cart
-  void addToChart() {}
+  void addToChart() {
+    // only add to ccart if there is something in the cart
+    if (quantityCount > 0) {
+      // get access to shop
+
+      // add to cart
+
+      // left user know it was successfull
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
