@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:sushi/components/button.dart';
 import 'package:sushi/components/food_tile.dart';
 import 'package:sushi/models/food.dart';
 import 'package:sushi/models/shop.dart';
@@ -66,6 +67,12 @@ class CartPage extends StatelessWidget {
                 );
               },
             ),
+
+            // PAY BUTTON
+            MyButton(
+              text: "PAY NOW",
+              onTap: () {},
+            )
           ],
         ),
       ),
