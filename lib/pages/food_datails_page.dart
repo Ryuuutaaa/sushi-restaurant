@@ -53,10 +53,20 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
       // left user know it was successfull
       showDialog(
         context: context,
-        builder: (context) => const AlertDialog(
-          content: Text("Successfully added to cart"),
+        builder: (context) => AlertDialog(
+          content: const Text("Successfully added to cart"),
           actions: [
-            // oke button
+            // "OK" button
+            IconButton(
+              onPressed: () {
+                // pop once to remove dialog box
+                Navigator.pop(context);
+
+                // pop again to go to previous screen
+                Navigator.pop(context);
+              },
+              icon: const Icon(Icons.done),
+            )
           ],
         ),
       );
