@@ -45,6 +45,10 @@ class _MenuPageState extends State<MenuPage> {
           'Tokyo',
           style: TextStyle(color: Colors.grey[900]),
         ),
+        actions: [
+          // cart button
+          IconButton(onPressed: () {}, icon: Icon(Icons.shopping_cart))
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
