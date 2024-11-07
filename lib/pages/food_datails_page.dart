@@ -51,6 +51,12 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
       shop.addToCart(widget.food, quantityCount);
 
       // left user know it was successfull
+      showDialog(
+        context: context,
+        builder: (context) => const AlertDialog(
+          content: Text("Successfully added to cart"),
+        ),
+      );
     }
   }
 
