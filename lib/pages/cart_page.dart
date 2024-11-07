@@ -15,6 +15,7 @@ class CartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<Shop>(
       builder: (context, value, child) => Scaffold(
+        backgroundColor: primaryColor,
         appBar: AppBar(
           title: const Text(
             "My cart",
