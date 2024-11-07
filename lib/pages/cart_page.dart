@@ -21,6 +21,7 @@ class CartPage extends StatelessWidget {
             "My cart",
             style: TextStyle(color: Colors.white),
           ),
+          elevation: 0,
           backgroundColor: primaryColor,
         ),
         body: ListView.builder(
