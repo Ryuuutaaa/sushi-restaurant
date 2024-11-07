@@ -14,6 +14,9 @@ class CartPage extends StatelessWidget {
         ),
         backgroundColor: primaryColor,
       ),
+      body: ListView.builder(
+        itemBuilder: (context, index) {},
+      ),
     );
   }
 }
