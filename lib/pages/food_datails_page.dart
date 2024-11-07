@@ -53,7 +53,9 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
       // left user know it was successfull
       showDialog(
         context: context,
+        barrierDismissible: false,
         builder: (context) => AlertDialog(
+          backgroundColor: primaryColor,
           content: const Text("Successfully added to cart"),
           actions: [
             // "OK" button
