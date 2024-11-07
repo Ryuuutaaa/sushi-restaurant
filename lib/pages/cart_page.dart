@@ -38,7 +38,7 @@ class CartPage extends StatelessWidget {
 
             // return list
             return Container(
-              decoration: BoxDecoration(color: secondaryColor),
+              decoration: BoxDecoration(color: secondaryColor, borderRadius: BorderRadius.circular(8)),
               margin: const EdgeInsets.only(left: 20, top: 20, right: 20),
               child: ListTile(
                 title: Text(
