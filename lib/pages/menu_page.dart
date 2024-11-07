@@ -14,18 +14,10 @@ class MenuPage extends StatefulWidget {
 }
 
 class _MenuPageState extends State<MenuPage> {
-// list food
-
-  List foodMenu = [
-    // salmon suhsi
-    Food(name: "Salmon Sushi", price: "21.00", imagePath: "lib/images/salmon_sushi.png", rating: "4.9"),
-
-    // tuna sushi
-    Food(name: "Tuna Sushi", price: "23.00", imagePath: "lib/images/tuna.png", rating: "4.3"),
-  ];
-
-  // naviagte to food item detail
+  // navigate to food item details page
   void navigateToFoodDetails(int index) {
+    // get the shop and its menu
+
     Navigator.push(
         context,
         MaterialPageRoute(
