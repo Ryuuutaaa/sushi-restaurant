@@ -28,6 +28,7 @@ class CartPage extends StatelessWidget {
             final String foodName = food.name;
 
             // get food price
+            final String foodPrice = food.price;
 
             // return list
           },
