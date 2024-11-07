@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:sushi/models/food.dart';
 import 'package:sushi/models/shop.dart';
 import 'package:sushi/theme/colors.dart';
 
@@ -18,8 +19,10 @@ class CartPage extends StatelessWidget {
           backgroundColor: primaryColor,
         ),
         body: ListView.builder(
+          itemCount: value.cart.length,
           itemBuilder: (context, index) {
             // get food from cart
+            final Food food = value.cart[index];
 
             // get food name
 
