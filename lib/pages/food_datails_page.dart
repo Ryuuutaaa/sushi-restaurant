@@ -55,6 +55,9 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
         context: context,
         builder: (context) => const AlertDialog(
           content: Text("Successfully added to cart"),
+          actions: [
+            // oke button
+          ],
         ),
       );
     }
