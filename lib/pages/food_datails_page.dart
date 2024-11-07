@@ -71,7 +71,7 @@ class _FoodDatailsPageState extends State<FoodDatailsPage> {
                 // pop again to go to previous screen
                 Navigator.pop(context);
               },
-              icon: const Icon(Icons.done),
+              icon: const Icon(Icons.done, color: Colors.white),
             )
           ],
         ),
