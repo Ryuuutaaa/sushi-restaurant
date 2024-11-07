@@ -35,10 +35,26 @@ class CartPage extends StatelessWidget {
             final String foodPrice = food.price;
 
             // return list
-            return ListTile(
-              title: Text(foodName),
-              subtitle: Text(foodPrice),
-              trailing: IconButton(onPressed: removeFromCart, icon: const Icon(Icons.delete)),
+            return Container(
+              decoration: BoxDecoration(color: secondaryColor),
+              margin: const EdgeInsets.only(left: 20, top: 20, right: 20),
+              child: ListTile(
+                title: Text(
+                  foodName,
+                  style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                ),
+                subtitle: Text(
+                  foodPrice,
+                  style: TextStyle(color: Colors.grey[200], fontWeight: FontWeight.bold),
+                ),
+                trailing: IconButton(
+                  onPressed: removeFromCart,
+                  icon: const Icon(
+                    Icons.delete,
+                    color: Colors.red,
+                  ),
+                ),
+              ),
             );
           },
         ),
