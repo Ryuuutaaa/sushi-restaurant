@@ -10,7 +10,7 @@ class CartPage extends StatelessWidget {
   const CartPage({super.key});
 
   // remove from cart
-  void removeFromCart() {}
+  void removeFromCart(Food food) {}
 
   @override
   Widget build(BuildContext context) {
@@ -58,7 +58,7 @@ class CartPage extends StatelessWidget {
                         style: TextStyle(color: Colors.grey[200], fontWeight: FontWeight.bold),
                       ),
                       trailing: IconButton(
-                        onPressed: removeFromCart,
+                        onPressed: () => removeFromCart(food),
                         icon: const Icon(
                           Icons.delete,
                           color: Colors.white,
